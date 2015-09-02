@@ -1,0 +1,11 @@
+# compiled javascript files
+lib/*
+
+# npm stuff
+node_modules
+npm-debug.log
+
+# OS noise
+.DS_Store
+Thumbs.db
+profile

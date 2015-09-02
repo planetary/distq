@@ -1,0 +1,44 @@
+{
+  "name": "distq",
+  "version": "0.1.0",
+  "description": "Redis-backed distributed queue",
+  "keywords": [
+    "distributed",
+    "queue",
+    "task",
+    "redis"
+  ],
+  "author": "Planetary <team@planetary.io>",
+  "contributors": [
+    "Radu Dan <dan@planetary.io> (https://github.com/za-creature)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/planetary/distq"
+  },
+  "bugs": {
+    "url": "https://github.com/planetary/distq/issues"
+  },
+  "homepage": "https://github.com/planetary/distq",
+  "license": "MIT",
+  "main": "lib",
+  "scripts": {
+    "prepublish": "coffee -o lib -c src"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "bluebird": "^2.9.25",
+    "redis": "^1.0.0",
+    "uuid": "^2.0.1"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.3"
+  },
+  "engines": {
+    "npm": "*",
+    "node": "*",
+    "coffee-script": "^1.9.3"
+  }
+}
